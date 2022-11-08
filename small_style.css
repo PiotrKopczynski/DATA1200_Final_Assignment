@@ -1,0 +1,358 @@
+#background1 {
+    background-image: url("coffee.jpg");
+    background-size: cover;                   
+    background-repeat: no-repeat;    
+    background-position: center;
+    min-height: 100vh;
+    overflow-y: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: beige;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  .title {
+    font-size: 250%;
+    font-family: 'Apple Chancery', cursive;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 15%;
+    margin-bottom:2%
+  }
+  
+  .title2 {
+    font-size: 100%;
+    width: 90vh;
+    margin-left: 50vw;
+    transform: translateX(-50%);
+    font-family: 'Apple Chancery', cursive;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0.5%;
+    margin-bottom:5%
+  }
+  
+  .button {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: burlywood;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    padding: 5px 10px;
+    
+  }
+  
+  .frontpageNavigation {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .frontpageNavigation .button {
+    font-size: 24px;
+    padding: 15px 25px;
+    margin: 15px 15px;
+  }
+  
+  .button:hover {
+    background-color: #9eba5b
+  }
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .navigationBar {
+    display: inline-block;
+    z-index: 20;
+    top: 0px;
+    width: 100vw;
+    position: fixed;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    margin-top: 0vh;
+    margin-left: 0px;
+    background-color: rgb(246, 245, 245);
+  }
+  
+  
+  .navigationBarButton {
+    display: inline;
+    position: relative;
+    padding: 0vw;
+    height: 10vh;
+    width: 16vw;
+    float: right;
+    margin-right: 2vw;
+    font-size: 2vw;
+    padding-right: 0vh;
+    font-weight: bold;
+    color:black;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #060606;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.3vh;
+    bottom: 0;
+    left: 0;
+    background-color: #040505;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  #googlemap {
+    border: 3px white;
+    width:100%;
+    margin-top: 12vh;
+    text-align: center;
+  }
+  
+  .contact {
+    font-size: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 29%;
+    margin-right: 29%;
+    padding: 5px;
+    border-style:double;
+  }
+  
+  #elvebreddenLogo {
+      /*position: absolute;*/
+      margin-left: 50vw;
+      margin-top: 2vh;
+      width: 50vw;
+      height: 20vh;
+      transform: translateX(-50%);
+  }
+  
+  #Construction {
+      margin-left: 50vw;
+      transform: translateX(-50%);
+      width: 60vw;
+      height: 80vh;
+      margin-bottom: 10vh;
+  }
+  
+  #tinderLogo {
+      width: 20vw;
+      height: 20vw;
+  }
+  
+  #tinderLogo:hover {
+      cursor: pointer;
+  }
+  
+  .allergenIcons {
+      max-width: 100%;
+      max-height: 100%;
+      width: 8vw;
+      height: 8vw;
+  }
+  
+  
+  #meny {
+      position: relative;
+      align-items: center;
+      margin-top: 10vw+10vh;
+      width: 70%;
+      align-items: center;
+      padding: 0px;
+      background-color: rgb(239, 235, 218);
+      color: black;
+  }
+  
+  .headers {
+      text-align: center;
+      font-size: 8vw;
+      font-style: bold;
+  }
+  
+  .allergen {
+      font-family:Verdana;
+      padding: 5px;
+      font-size: 2.5vw;
+      display: inline-block;
+  }
+  
+  .section {
+      background-color: blanchedalmond;
+      border-radius: 8px;
+      padding: 10px;
+      width: 80%;
+      font-size: 4vw;
+      margin-bottom: 2vh;
+      position: relative;
+  }
+  
+  footer {
+      position: absolute;
+      display: flex;
+      width: 100vw;
+      left: 0px;
+      right: 0px;
+      height: 60vh+60vw;
+      margin: 0%;
+      background-color: rgb(68, 51, 51);
+      color: blanchedalmond;
+  }
+  
+  aside {
+      display: inline-block;
+      overflow-wrap: break-word;
+      float: left;
+      width:  24.2vw;
+      height: 30%;
+      margin-left: 0.5vh;
+      margin-top: 1vh;
+      margin-bottom: 1vh;
+      padding-left: 0.5rem;
+      font-size: calc((15vw - 1rem) / 6);
+      transform: scale(0.8,1);
+  }
+  
+  
+  .footerParagraph {
+    margin: 1vh;
+  }
+  
+  #reservationTitle {
+    display: inline-block;
+    margin-left: 50vw;
+    transform: translateX(-50%);
+    margin-top: 20vh;
+    font-size: 6vh;
+  }
+  
+  #Kafelogo {
+    display: block;
+    position: absolute;
+    bottom: 1;
+    margin-top: 0vh;
+    width: 11vw;
+    align-self: left;
+    align-items: left;
+    height: 12vh;
+  }
+  
+  .position {
+    margin-top: 10vh;
+    position: relative;
+    text-align: center;
+  }
+  
+  p {
+      margin-top: 5px;
+      margin-left: 0px;
+      margin-bottom: 0px;
+  }
+  
+  #omoss {
+    font-size: 60px;
+    font-family: fantasy;
+    }
+  
+  #tallogvenn {
+  font-family: fantasy;
+  font-size: 30px;
+  }
+  
+  #omosstext {
+      font-family: Lucida Sans;
+      font-size: 20px;
+      }
+  
+  #hilsen {
+      font-family: Lucida Sans;
+      font-size: 20px;
+      margin-left: 30vw;
+  
+  }
+  
+  #mattevits {
+  font-family: Lucida Sans;
+  font-size: 20px;
+  padding: 10px;
+  }
+  
+  #vits {
+    font-family: Lucida Sans;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  
+  #toggle {
+  background-color: rgb(231, 165, 67);
+  font-size: 18px;
+  margin-bottom: 3vh;
+  font-family: Franklin Gothic Medium;
+  padding: 10px;
+  border-radius: 60px;
+  cursor: pointer;
+  
+  
+  }
+  #toggle:hover{background-color: #ecef45}
+  
+  #toggle:active {
+  background-color: #dca01e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
+  }
+  
+  #Svar1 {
+    font-family: Lucida Sans;
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(37, 160, 37);
+    padding: 15px;
+  }
+  
+  #kafebilde {
+  display: block;
+  width: 50vw;
+  height: 40vh;
+  border-radius: 7vw;
+  margin-left: 50vw;
+  transform: translateX(-50%);
+  padding: 0px;
+  }
+  
+  #hr {
+  border: 1.5px dashed black;
+  }
