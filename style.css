@@ -10,6 +10,16 @@
   margin: 0;
 }
 
+#background2 {
+  background-image: url("wood_background.jpg");
+  background-size: cover;                   
+  background-position: center;
+  left: 0px;
+  overflow-y: scroll;
+  /*background-attachment: fixed;*/
+  min-height: 100vh;
+}
+
 body {
   background-color: blue;
   width: 100vw;
@@ -194,11 +204,12 @@ body {
     transform: translateX(-50%);
     padding: 5px;
     background-color: rgb(239, 235, 218);
+    background: rgba(215, 208, 162, 0.8);
 }
 
 .menuHeader {
   text-align: center;
-  font-size: 8vh;
+  font-size: 5vw;
   font-family: "Impact", sans-serif;
   letter-spacing: 0.3vh;
   font-style: normal; 
@@ -208,7 +219,7 @@ body {
 
 .headers {
     text-align: center;
-    font-size: 5vh;
+    font-size: 3vw;
     font-family: 'Trebuchet MS', sans-serif;
     font-style: normal; 
     font-variant: normal;  
@@ -224,13 +235,14 @@ body {
 
 .section {
     background-color: blanchedalmond;
+    background: rgba(47, 116, 18, 0.5);
     align-items: center;
     margin: auto;
     border-radius: 8px;
     padding: 3vw;
     width: 50vw;
     font-family: Verdana;
-    font-size: 4vh;
+    font-size: 2vw;
     margin-bottom: 2vh;
     position: relative;
 }

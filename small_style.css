@@ -5,18 +5,15 @@
     overflow-x: hidden;
   }
   
-  
-  
-  
+
   .navigationBarButton {
     padding: 0vw;
     height: 10vh;
     width: 16vw;
-    font-size: 2vw+2vh;
+    font-size: 2.2vw;
   }
   
-    
-  
+     
   #tinderLogo {
       width: 20vw;
       height: 20vw;
@@ -39,6 +36,7 @@
       align-items: center;
       padding: 0px;
       background-color: rgb(239, 235, 218);
+      background: rgba(215, 208, 162, 0.8);
       color: black;
   }
   
@@ -70,9 +68,10 @@
   
   .section {
       background-color: blanchedalmond;
+      background: rgba(47, 116, 18, 0.5);
       border-radius: 8px;
       padding: 10px;
-      width: 80%;
+      width: 75%;
       font-size: 3vw;
       margin-bottom: 2vh;
       position: relative;
@@ -96,6 +95,6 @@
     flex: 1;
     width: 80%;
     overflow-wrap: break-word;
-    font-size: 10vh;
+    font-size: 60%;
   }
   
