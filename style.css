@@ -199,12 +199,12 @@ body {
     position: relative;
     margin-top: 20vh;
     margin-left: 50vw;
-    width: 60%;
+    width: 70%;
     align-items: center;
     transform: translateX(-50%);
     padding: 5px;
     background-color: rgb(239, 235, 218);
-    background: rgba(215, 208, 162, 0.8);
+    background: rgba(47, 116, 18, 0.5);
 }
 
 .menuHeader {
@@ -215,15 +215,28 @@ body {
   font-style: normal; 
   font-variant: normal; 
   color: rgb(14, 5, 5);
+  padding: 2vh;
 }
 
-.headers {
-    text-align: center;
-    font-size: 3vw;
-    font-family: 'Trebuchet MS', sans-serif;
-    font-style: normal; 
-    font-variant: normal;  
-    font-style: bold;
+.h2 {
+  text-align: center;
+  font-size: 4vw;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-style: normal; 
+  font-variant: normal;  
+  font-style: bold;
+}
+
+.headers_with_price {
+  display: flex;
+  align-items: center;
+  font-size: 3vw;
+
+}
+
+.dish {
+  width: 80%;
+  flex: 3;
 }
 
 .allergen {
@@ -235,12 +248,12 @@ body {
 
 .section {
     background-color: blanchedalmond;
-    background: rgba(47, 116, 18, 0.5);
+    background: rgba(215, 208, 162, 0.8);
     align-items: center;
     margin: auto;
     border-radius: 8px;
     padding: 3vw;
-    width: 50vw;
+    width: 85%;
     font-family: Verdana;
     font-size: 2vw;
     margin-bottom: 2vh;
@@ -250,6 +263,10 @@ body {
 ul {
   padding-left: 6vw;
   margin-left: 0vw;
+}
+
+li {
+  margin-top: 3vh;
 }
 
 footer {
