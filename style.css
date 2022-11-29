@@ -71,11 +71,11 @@ body {
   
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 750px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
-    padding-right: 8vh;
+    padding-right: 3vh;
     padding-bottom: 0.9vh;
     display: block;
     color: black;
@@ -84,7 +84,8 @@ body {
  
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 750px), 
+screen and(max-height:900){
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -105,7 +106,72 @@ body {
   text-align: center;
   padding: 20px 0;
   margin-top: 15%;
-  margin-bottom:2%
+  margin-bottom:0.5%
+}
+
+.frontpageTXT{
+  text-align: center;
+  font-family: 'Apple Chancery', cursive;
+  padding: 5vh;
+  padding-bottom: 7vh;
+  font-size: 20px;
+  
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 30px;
+  justify-content: center; 
+}
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: burlywood;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  padding: 10px 20px;
+  font-size: 24px;
+  
+}
+
+.button a{
+  color:white;
+  text-decoration: none;
+}
+
+
+.button:hover {
+  background-color: #9eba5b
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media (max-width:760px){
+  .flex-container {
+    text-align: center;
+    flex-direction: column;
+    justify-items: center;
+    
+  }
+  .button{
+    font-size: 15px;
+    max-width: fit-content;
+    margin: auto;
+
+  }
+
 }
 
 .title2 {
@@ -120,41 +186,6 @@ body {
   margin-bottom:5%
 }
 
-.button {
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: burlywood;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-  padding: 5px 10px;
-  
-}
-
-.frontpageNavigation {
-  width: 100%;
-  text-align: center;
-}
-
-.frontpageNavigation .button {
-  font-size: 24px;
-  padding: 15px 25px;
-  margin: 15px 15px;
-}
-
-.button:hover {
-  background-color: #9eba5b
-}
-
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
 
 .navigationBar {
   display: inline-block;
