@@ -12,6 +12,8 @@
 
 #background2 {
   background-image: url("wood_background.jpg");
+  /*Hentet fra: https://pixabay.com/no/photos/tre-borde-struktur-brett-korn-591631/
+  Fotograf: blickpixel*/
   background-size: cover;                   
   background-position: center;
   left: 0px;
@@ -341,7 +343,7 @@ p {
 	margin-bottom: 0px;
 }
 
-#omoss {
+/*#omoss {
   font-size: 60px;
   font-family: fantasy;
   }
@@ -417,7 +419,7 @@ padding: 0px;
 
 #hr {
 border: 1.5px dashed black;
-}
+}*/
 
 /*Bilde hentet fra: https://pixabay.com/no/photos/tre-borde-struktur-brett-korn-591631
 Fotograf: blickpixel fra Pixaby.com*/
@@ -440,7 +442,7 @@ font-size: 50px;
 font-weight: bolder;
 }
 
-/*Forklaring på flex-box?:
+/*A Complete Guide to Flexbox by Chris Coyier:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/?fbclid=IwAR2dc5cGG1Fopu-jG03mE6e-J37j7yFNv1yBs_ZHJEN3SneCQED_zUDn2nM*/
 .container {
 display: flex;
@@ -456,19 +458,22 @@ flex-basis: auto;
 background-color: rgba(239, 239, 226, 0.909);
 border: 25px solid rgba(214, 153, 93, 0.436);
 border-radius: 50px;
+
 padding-right: 150px;
 padding-left: 100px;
 padding-bottom: 50px;
 padding-top: 30px;
-margin: 60px;
+margin-top: 60px;
+margin-bottom: 60px;
+margin-left: 20px;
+margin-right: 400px;
 
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 line-height: 2.5;
 font-size: 20px;
-
 }
 
-.container>button {
+/*.button_bookher {
 display: inline-block;
 border-radius: 10px;
 background-color: #d4a744b1;
@@ -476,22 +481,29 @@ border: none;
 color: #FFFFFF;
 text-align: center;
 font-size: 28px;
-padding-top: 200px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 15px;
 width: 150px;
-height:200px;
+height:90px;
 transition: all 0.5s;
 cursor: pointer;
-margin: 5px;
+
+margin-left: 300px;
+margin-bottom: 50px;
+font-size: 22px;
+
 }
 
-.button span {
+.button_bookher span {
 cursor: pointer;
 display: inline-block;
 position: relative;
 transition: 0.5s;
 }
 
-.button span:after {
+.button_bookher span:after {
 content: '\00bb';
 position: absolute;
 opacity: 0;
@@ -500,30 +512,13 @@ right: -20px;
 transition: 0.5s;
 }
 
-.button:hover span {
+.button_bookher:hover span {
 padding-right: 25px;
 }
 
-.button:hover span:after {
+.button_bookher:hover span:after {
 opacity: 1;
 right: 0;
-}
-
-/*@media only screen and (max-width: 700px) {
-.container {
-  width: 50%;
-}
-}*/
-
-/*.booking {
-width: 190px;
-height: 100px;
-background-color: rgb(221, 0, 255);
-padding-bottom: 50px;
-margin-bottom: 50px;
-animation-name: book_her;
-animation-duration: 4s;
-animation-iteration-count: infinite;
 }*/
 
 div.gallery {
@@ -546,7 +541,7 @@ div.desc {
   padding: 15px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.715);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
 }
 
@@ -580,25 +575,83 @@ div.desc {
   clear: both;
 }
 
+.reservasjon_forklaring{
+  background-color: rgb(234, 205, 205);
+  width: 900px;
+  height: 400px;
+
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+
+  margin-left: 250px;
+  margin-bottom: 40px;
+  margin-top: 150px;
+  border: 20px solid #586b6bdc;
+  border-radius: 30px;
+
+  font-size: 22px;
+  line-height: 2.0;
+}
+
 .container2 {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: baseline;
-  row-gap: 10px;
+  row-gap: px;
   }
   
   .container2 >div {
     flex-grow: 2;
     flex-basis: auto;
-    background-color: rgba(239, 226, 238, 0.831);
-    border: 15px solid rgba(109, 0, 128, 0.486);
-    padding-top: 50px;
+    background-color: rgba(255, 255, 255, 0.995);
+    border: 15px solid rgba(236, 226, 226, 0);
+    
+    width: 900px;
+    height: 200px;
+    
+    padding-top: 10px;
     padding-bottom: 50px;
     padding-left: 10px;
     padding-right: 10px;
-    margin: 80px;
+    
+    margin-bottom: 40px;
+    margin-left:250px ;
+    margin-top: 30px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+  }
+
+  
+  .button_book {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #e0b642;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button_book:hover {background-color: #8e7d3e}
+  
+  .button_book:active {
+    background-color: #8e773e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
   }
 
 
