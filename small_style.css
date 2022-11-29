@@ -4,6 +4,19 @@
     overflow-x: hidden;
   }
 
+  .flex-container {
+    text-align: center;
+    flex-direction: column;
+    justify-items: center;
+    
+  }
+  .button{
+    font-size: 15px;
+    max-width: fit-content;
+    margin: auto;
+
+  }
+
   #Kafelogo {
     display: block;
     position: absolute;

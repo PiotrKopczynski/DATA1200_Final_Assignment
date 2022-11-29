@@ -10,13 +10,29 @@
   margin: 0;
 }
 
+.frontpageTXT{
+  text-align: center;
+  font-family: 'Apple Chancery', cursive;
+  padding: 5vh;
+  padding-bottom: 7vh;
+  font-size: 20px;
+  
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 30px;
+  justify-content: center; 
+}
+
 #background2 {
   background-image: url("wood_background.jpg");
   background-size: cover;                   
   background-position: center;
   left: 0px;
   overflow-y: scroll;
-  /*background-attachment: fixed;*/
   min-height: 100vh;
 }
 
@@ -60,19 +76,20 @@ body {
   border-radius: 15px;
   box-shadow: 0 9px #999;
   padding: 5px 10px;
-  
 }
 
+.button a{
+  color:white;
+  text-decoration: none;
+}
 
 .frontpageNavigation {
   width: 100%;
   text-align: center;
 }
 
-.frontpageNavigation .button {
-  font-size: 24px;
-  padding: 15px 25px;
-  margin: 15px 15px;
+.button:hover {
+  background-color: #9eba5b
 }
 
 .button:hover {
@@ -115,41 +132,6 @@ body {
 .topnav .icon {
   display: none;
   color:white;
-}
-
-
-.navigationBar {
-  display: inline-block;
-  z-index: 20;
-  top: 0px;
-  height: 12vh;
-  width: 100vw;
-  position: fixed;
-  text-align: center;
-  left: 0px;
-  right: 0px;
-  margin-top: 0vh;
-  margin-left: 0px;
-  background-color: rgb(246, 245, 245);
-}
-
-
-.navigationBarButton {
-  display: inline;
-  position: relative;
-  padding: 0vh;
-  height: 12vh;
-  width: 16vw;
-  float: right;
-  margin-right: 2vw;
-  font-size: 1.5vw;
-  padding-right: 0vh;
-  font-weight: bold;
-  color:black;
-  cursor: pointer;
-  text-align: center;
-  border: none;
-  background-color: transparent;
 }
 
 .hover-underline-animation {
@@ -380,7 +362,7 @@ footer {
   width: 12vw;
   align-self: left;
   align-items: left;
-  height: 12vh;
+  height: 11.1vh;
 }
 
 .position {
