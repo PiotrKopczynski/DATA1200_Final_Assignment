@@ -9,16 +9,33 @@
 </head>
 <body>
       
-    <div class="navigationBar">
-        <img id="Kafelogo" src="Kafe_Logo.jpg" alt="Kafelogo">
-        <a href="frontpage.html"><button class=navigationBarButton><p class="hover-underline-animation">Velkommen</p></button></a>
-        <a href="menu.html"><button class=navigationBarButton><p class="hover-underline-animation">Meny</p></button></a>
-        <a href="reservasjoner.html"><button class=navigationBarButton><p class="hover-underline-animation">Reservasjoner</p></button></a>
-        <a href="kontaktoss.html"><button class=navigationBarButton><p class="hover-underline-animation">Kontakt oss</p></button></a>
-        <a href="omoss.html"><button class=navigationBarButton><p class="hover-underline-animation">Om oss</p></button></a>
+    <img id="Kafelogo" src="Kafe_Logo.jpg" alt="Kafelogo">
+
+    <div class="topnav" id="myTopnav">
+
+        <a href="frontpage.html">Velkommen</a>
+        <a href="menu.html">Meny</a>
+        <a href="reservasjoner.html">Reservasjoner</a>
+        <a href="kontaktoss.html">Kontakt oss</a>
+        <a href="omoss.html">Om oss</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i>☰</i>
+        </a>
 
     </div>
 
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
+    
     <h1 id="reservationTitle">Still in construction :)</h1>
 
     <img id="Construction" src="https://cdn.pixabay.com/photo/2019/02/06/16/32/architect-3979490_960_720.jpg" alt="Construction">
