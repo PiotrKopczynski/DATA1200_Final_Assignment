@@ -21,7 +21,6 @@
 }
 
 body {
-  background-color: blue;
   width: 100vw;
   height: 100vh;
   margin: 0px;
@@ -198,28 +197,36 @@ html { /*For å linke til korrekt posisjon på siden*/
   scroll-padding-top: 15vw;
 }
 
+#meny_and_sidebar {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  margin-top: 10vh;
+}
+
 .sidebar {
-  position: fixed;
+  position: sticky;
+  scroll-padding-top: 60vh;
   display: flex;
   text-align: center;
   flex-direction: column;
-  gap: 2vw;
-  top: 0;
-  right: 0;
-  margin-top: 12vh;
-  width: 10vw;
-  height: 35vh;
-  font-size: 1.5vw;
+  gap: 2vh;
+  top: 15vh;
+  margin-right: 5vw;
+  margin-top: 20vh;
+  width: 15vh;
+  height: 41vh;
+  font-size: 2vh;
   background: rgba(215, 208, 162, 0.8);
 }
 
 #meny {
-    position: relative;
+    /*position: relative;*/
     margin-top: 20vh;
-    margin-left: 42vw;
+    margin-left: 5vw;
+    /*transform: translateX(-50%);*/
     width: 70%;
     align-items: center;
-    transform: translateX(-50%);
     padding: 5px;
     background-color: rgb(239, 235, 218);
     background: rgba(47, 116, 18, 0.5);
@@ -336,7 +343,9 @@ footer {
 }
 
 p {
-	margin-top: 5px;
+  padding: 0px;
+  margin: 0px;
+	margin-top: 0.4vh;
 	margin-left: 0px;
 	margin-bottom: 0px;
 }
