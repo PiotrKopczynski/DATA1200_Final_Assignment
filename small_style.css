@@ -3,7 +3,50 @@
     margin: 0px;
     overflow-x: hidden;
   }
-  
+
+  #Kafelogo {
+    display: block;
+    position: absolute;
+    bottom: 1;
+    margin-top: 0vh;
+    width: 20vw;
+    align-self: left;
+    align-items: left;
+    height:12.6vw;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color:beige;
+    margin-left: 20%;
+  }
+
+  .topnav a {
+    padding: 0vh;
+    font-size: 4vw;
+  }
+
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    margin-top: 3vw;
+    padding-right: 3vh;
+    padding-bottom: 0.9vh;
+    display: block;
+    color: black;
+    font-weight: bold;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 
   .navigationBarButton {
     padding: 0vw;

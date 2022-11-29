@@ -63,6 +63,7 @@ body {
   
 }
 
+
 .frontpageNavigation {
   width: 100%;
   text-align: center;
@@ -83,6 +84,39 @@ body {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+.topnav {
+  overflow: hidden;
+  background-color:beige;
+  margin-left: 11%;
+}
+
+
+.topnav a {
+  display: inline;
+  position: relative;
+  color: black;
+  text-align: center;
+  padding:3vh;
+  margin-left: 2vh;
+  text-decoration: none;
+  font-size: 1.8vw;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/*.topnav a:hover {
+  background-color: #ddd;
+  color: black; 
+}*/
+
+
+.topnav .icon {
+  display: none;
+  color:white;
+}
+
 
 .navigationBar {
   display: inline-block;
@@ -325,6 +359,19 @@ footer {
   font-size: 6vh;
 }
 
+/*
+#Kafelogo {
+  display: block;
+  position: absolute;
+  bottom: 1;
+  margin-top: 0vh;
+  width: 11vw;
+  align-self: left;
+  align-items: left;
+  height:8.7vh;
+}
+*/
+
 #Kafelogo {
   display: block;
   position: absolute;
@@ -342,7 +389,7 @@ footer {
   text-align: center;
 }
 
-p {
+.sidebar p {
   padding: 0px;
   margin: 0px;
 	margin-top: 0.4vh;

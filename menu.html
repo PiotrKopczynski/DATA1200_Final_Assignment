@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="small_style.css" media="screen and (max-width:700px)">
+    <link rel="stylesheet" href="small_style.css" media="screen and (max-width:820px)">
 </head>
 
 <body id="background2">
-
+    <!--
     <div class="navigationBar">
         <img id="Kafelogo" src="Kafe_Logo.jpg" alt="Kafelogo">
         <a href="frontpage.html"><button class=navigationBarButton><p class="hover-underline-animation">Velkommen</p></button></a>
@@ -20,8 +20,33 @@
         <a href="omoss.html"><button class=navigationBarButton><p class="hover-underline-animation">Om oss</p></button></a>
 
     </div>
+    -->
 
+    <img id="Kafelogo" src="Kafe_Logo.jpg" alt="Kafelogo">
 
+    <div class="topnav" id="myTopnav">
+        <a href="frontpage.html"><p class="hover-underline-animation">Velkommen</p></a>
+        <a href="menu.html"><p class="hover-underline-animation">Meny</p></a>
+        <a href="reservasjoner.html"><p class="hover-underline-animation">Reservasjoner</p></a>
+        <a href="kontaktoss.html"><p class="hover-underline-animation">Kontakt oss</p></a>
+        <a href="omoss.html"><p class="hover-underline-animation">Om oss</p></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i>☰</i>
+        </a>
+
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
 
     <div id="meny_and_sidebar">
         <article id="meny">
@@ -236,15 +261,15 @@
             </div>
         </article>
         <div class = "sidebar">
-            <a href="#meny"><p class="hover-underline-animation">Til toppen</p></a>
-            <a href="#Smørbrød"><p class="hover-underline-animation">Smørbrød</p></a>
-            <a href="#Tapas"><p class="hover-underline-animation">Tapas</p></a>
-            <a href="#Salat"><p class="hover-underline-animation">Salat</p></a>
-            <a href="#Te"><p class="hover-underline-animation">Te</p></a>
-            <a href="#Suppe"><p class="hover-underline-animation">Suppe</p></a>
-            <a href="#Brødfjøler"><p class="hover-underline-animation">Brødfjøler</p></a>
-            <a href="#Vegan"><p class="hover-underline-animation">Vegan</p></a>
-            <a href="#bottom"><p class="hover-underline-animation">Kontaktinfo</p></a>
+        <a href="#meny"><p class="hover-underline-animation">Til toppen</p></a>
+        <a href="#Smørbrød"><p class="hover-underline-animation">Smørbrød</p></a>
+        <a href="#Tapas"><p class="hover-underline-animation">Tapas</p></a>
+        <a href="#Salat"><p class="hover-underline-animation">Salat</p></a>
+        <a href="#Te"><p class="hover-underline-animation">Te</p></a>
+        <a href="#Suppe"><p class="hover-underline-animation">Suppe</p></a>
+        <a href="#Brødfjøler"><p class="hover-underline-animation">Brødfjøler</p></a>
+        <a href="#Vegan"><p class="hover-underline-animation">Vegan</p></a>
+        <a href="#bottom"><p class="hover-underline-animation">Kontaktinfo</p></a>
         </div>
     </div>
     
