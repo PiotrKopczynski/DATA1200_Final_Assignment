@@ -200,7 +200,7 @@ html { /*This is used for the sidebar such that the buttons link to correct
   scroll-padding-top: 15vw;
 }
 
-#meny_and_sidebar {
+#menu_and_sidebar {
   display: flex;
   justify-content: space-between;
   width: 100vw;
@@ -231,7 +231,7 @@ html { /*This is used for the sidebar such that the buttons link to correct
 	margin-bottom: 0px;
 }
 
-#meny {
+#menu {
     margin-top: 5vh;
     margin-left: 5vw;
     width: 70%;
@@ -285,12 +285,12 @@ li {
   margin-top: 3vh;
 }
 
-.headers_with_price {
+.headers_with_price { /*Container containing dish name and dish price*/
   display: flex;
   font-size: 3.2vw;
 }
 
-.dish {
+.dish { /*paragraph containing dish name*/
   width: 80%;
   flex: 3;
 }

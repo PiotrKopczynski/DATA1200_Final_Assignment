@@ -37,10 +37,6 @@
     padding: 0vh;
     font-size: 4vw;
   }
-  /*
-  .topnav a p {
-    padding: vh;
-  }*/
 
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -90,7 +86,7 @@
 
   /*----------------------------Menu css--------------------------*/
   
-  .meny_and_sidebar {
+  .menu_and_sidebar {
     flex-direction: column;
     justify-content: center;
   }
@@ -101,7 +97,7 @@
     height: 0px;
   }
   
-  #meny {
+  #menu {
       margin-top: 10vw;
       margin-left: 15vw;
       width:70vw;
