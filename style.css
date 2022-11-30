@@ -89,7 +89,7 @@ body {
   width: 12vw;
   align-self: left;
   align-items: left;
-  height: 7.3vh;
+  height: 7.5vh;
 }
 
 
@@ -108,7 +108,7 @@ body {
   padding:3vh;
   margin-left: 2vh;
   text-decoration: none;
-  font-size: 1.8vw;
+  font-size: 2vh;
   font-weight: bold;
   cursor: pointer;
 }
