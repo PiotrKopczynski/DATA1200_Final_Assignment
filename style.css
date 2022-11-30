@@ -1,41 +1,7 @@
 
-#background1 {
-  background-image: url("coffee.jpg");
-  background-size: cover;                   
-  background-repeat: no-repeat;    
-  background-position: center;
-  min-height: 100vh;
-  overflow-y: hidden;
-  padding: 0;
-  margin: 0;
-}
+/*LARGE SCREEN CSS FILE*/
 
-.frontpageTXT{
-  text-align: center;
-  font-family: 'Apple Chancery', cursive;
-  padding: 5vh;
-  padding-bottom: 7vh;
-  font-size: 20px;
-  
-}
-
-.flex-container{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  gap: 30px;
-  justify-content: center; 
-}
-
-#background2 {
-  background-image: url("wood_background.jpg");
-  background-size: cover;                   
-  background-position: center;
-  left: 0px;
-  overflow-y: scroll;
-  min-height: 100vh;
-}
-
+/*-------------------------Frontpage css---------------------------*/
 body {
   width: 100vw;
   height: 100vh;
@@ -43,49 +9,62 @@ body {
   overflow-x: hidden;
 }
 
-.title {
-  font-size: 250%;
+#background1 { /*Background for frontpage*/
+  background-image: url("coffee.jpg");
+  background-size: cover;                   
+  background-repeat: no-repeat;    
+  background-position: center;
+  min-height: 100vh;
+  /*overflow-y: hidden;*/
+  padding: 0;
+  margin: 0;
+}
+
+.title { /*Frontpage title*/
+  font-size: 6vh;
   font-family: 'Apple Chancery', cursive;
   text-align: center;
-  padding: 20px 0;
+  padding: 1vh 0;
   margin-top: 15%;
-  margin-bottom:2%
+  margin-bottom:0.5%
 }
 
-.title2 {
-  font-size: 100%;
-  width: 90vh;
-  margin-left: 50vw;
-  transform: translateX(-50%);
-  font-family: 'Apple Chancery', cursive;
+.frontpageTXT{ /*Frontpage text*/
   text-align: center;
-  padding: 20px 0;
-  margin-top: 0.5%;
-  margin-bottom:5%
+  font-family: 'Apple Chancery', cursive;
+  padding: 5vh;
+  padding-bottom: 7vh;
+  font-size: 3vh;
+  
 }
 
-.button {
+.flex-container{ /*Frontpage button container*/
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 7vh;
+  justify-content: center; 
+}
+
+
+.button { /*Frontpage button class*/
   display: inline-block;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: burlywood;
+  background-color: rgb(109, 82, 46);
   border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-  padding: 5px 10px;
+  border-radius: 2vh;
+  box-shadow: 0 1vh #999;
+  padding: 2vh 2.5vh;
+  font-size: 3.3vh;
 }
 
 .button a{
   color:white;
   text-decoration: none;
-}
-
-.frontpageNavigation {
-  width: 100%;
-  text-align: center;
 }
 
 .button:hover {
@@ -102,7 +81,19 @@ body {
   transform: translateY(4px);
 }
 
-.topnav {
+/*--------------------Top navigation bar css---------------------*/
+
+#Kafelogo { /*Top navigation bar picture*/
+  display: block;
+  position: absolute;
+  width: 12vw;
+  align-self: left;
+  align-items: left;
+  height: 7.3vh;
+}
+
+
+.topnav { /*Top navigation bar used in menu, reservation and "om oss" pages*/
   overflow: hidden;
   background-color:beige;
   margin-left: 11%;
@@ -123,21 +114,21 @@ body {
 }
 
 
-/*.topnav a:hover {
-  background-color: #ddd;
-  color: black; 
-}*/
-
-
 .topnav .icon {
   display: none;
   color:white;
 }
 
+/*----------------------Button underline animation css-----------*/
+
+/*Source for animation code: 
+https://unclebigbay.com/how-to-create-an-hover-underline-animation-in-css?fbclid=IwAR1IDC9ZLlvnR2VrOXVBmb-V3GceDIRW8pWWVPgNqimpbI_RHzrZOmgzoPE#heading-step-1-adding-an-underline-to-the-anchor-tag-text*/
+
 .hover-underline-animation {
   display: inline-block;
   position: relative;
   color: #060606;
+  padding: 0.6vh;
 }
 
 .hover-underline-animation:after {
@@ -158,58 +149,54 @@ body {
   transform-origin: bottom left;
 }
 
-#googlemap {
-  border: 3px white;
-  width:100%;
-  margin-top: 12vh;
-  text-align: center;
+/*---------------------------Footer css-------------------------*/
+
+footer { 
+  display: flex;
+  justify-content: space-around;
+  column-gap: 0vw;
+  width: 100vw;
+  height: 60vh+60vw;
+  background-color: rgb(68, 51, 51);
+  color: blanchedalmond;
 }
 
-.contact {
-  font-size: 20px;
-  font-family: Comic Sans MS, Comic Sans, cursive;
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 3%;
-  margin-left: 29%;
-  margin-right: 29%;
-  padding: 5px;
-  border-style:double;
+.footerItem {
+  flex-basis: auto;
+  flex: 1;
+  overflow-wrap: break-word;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 2vw;
+  padding: 1vh;
 }
 
-#elvebreddenLogo {
-    margin-left: 50vw;
-    margin-top: 2vh;
-    width: 50vw;
-    height: 20vh;
-    transform: translateX(-50%);
-}
-
-#Construction {
-    margin-left: 50vw;
-    transform: translateX(-50%);
-    width: 60vw;
-    height: 80vh;
-    margin-bottom: 10vh;
+.footerParagraph {
+margin: 1vh;
 }
 
 #tinderLogo {
-    width: 20vw;
-    height: 20vh;
+  width: 20vw;
+  height: 20vh;
 }
 
 #tinderLogo:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.allergenIcons {
-    max-width: 100%;
-    max-height: 100%;
-    width: 8vh;
-    height: 8vh;
+/*----------------------------Menu css--------------------------*/
+
+#background2 { /*This background is shared for reservation and "om oss" pages as well*/
+  background-image: url("wood_background.jpg");
+  background-size: cover;                   
+  background-position: center;
+  left: 0px;
+  overflow-y: scroll;
+  min-height: 100vh;
 }
 
-html { /*For å linke til korrekt posisjon på siden*/
+html { /*This is used for the sidebar such that the buttons link to correct
+  locations on the menu site*/
   scroll-padding-top: 15vw;
 }
 
@@ -220,7 +207,7 @@ html { /*For å linke til korrekt posisjon på siden*/
   margin-top: 10vh;
 }
 
-.sidebar {
+.sidebar { /*Sidebar containing navigation buttons*/
   position: sticky;
   scroll-padding-top: 60vh;
   display: flex;
@@ -229,18 +216,24 @@ html { /*For å linke til korrekt posisjon på siden*/
   gap: 2vh;
   top: 15vh;
   margin-right: 5vw;
-  margin-top: 20vh;
+  margin-top: 5vh;
   width: 15vh;
   height: 41vh;
   font-size: 2vh;
   background: rgba(215, 208, 162, 0.8);
 }
 
+.sidebar p {
+  padding: 0px;
+  margin: 0px;
+	margin-top: 0.4vh;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
 #meny {
-    /*position: relative;*/
-    margin-top: 20vh;
+    margin-top: 5vh;
     margin-left: 5vw;
-    /*transform: translateX(-50%);*/
     width: 70%;
     align-items: center;
     padding: 5px;
@@ -268,22 +261,6 @@ html { /*For å linke til korrekt posisjon på siden*/
   font-style: bold;
 }
 
-.headers_with_price {
-  display: flex;
-  font-size: 3.2vw;
-}
-
-.dish {
-  width: 80%;
-  flex: 3;
-}
-
-.allergen {
-    font-family:Verdana;
-    padding: 5px;
-    font-size: 1.5ex;
-    display: inline-block;
-}
 
 .section {
     background-color: blanchedalmond;
@@ -308,153 +285,27 @@ li {
   margin-top: 3vh;
 }
 
-footer {
-    display: flex;
-    justify-content: space-around;
-    column-gap: 0vw;
-    width: 100vw;
-    height: 60vh+60vw;
-    background-color: rgb(68, 51, 51);
-    color: blanchedalmond;
+.headers_with_price {
+  display: flex;
+  font-size: 3.2vw;
 }
 
-.footerItem {
-    flex-basis: auto;
-    flex: 1;
-    overflow-wrap: break-word;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    font-size: 2vw;
-    padding: 1vh;
+.dish {
+  width: 80%;
+  flex: 3;
 }
 
-
-.footerParagraph {
-  margin: 1vh;
-}
-
-#reservationTitle {
+.allergen {/*Text describing the allergens of a dish*/
+  font-family:Verdana;
+  padding: 5px;
+  font-size: 1.5ex;
   display: inline-block;
-  margin-left: 50vw;
-  transform: translateX(-50%);
-  margin-top: 20vh;
-  font-size: 6vh;
 }
 
-/*
-#Kafelogo {
-  display: block;
-  position: absolute;
-  bottom: 1;
-  margin-top: 0vh;
-  width: 11vw;
-  align-self: left;
-  align-items: left;
-  height:8.7vh;
+.allergenIcons {
+  max-width: 100%;
+  max-height: 100%;
+  width: 8vh;
+  height: 8vh;
 }
-*/
-
-#Kafelogo {
-  display: block;
-  position: absolute;
-  bottom: 1;
-  margin-top: 0vh;
-  width: 12vw;
-  align-self: left;
-  align-items: left;
-  height: 11.1vh;
-}
-
-.position {
-  margin-top: 10vh;
-  position: relative;
-  text-align: center;
-}
-
-.sidebar p {
-  padding: 0px;
-  margin: 0px;
-	margin-top: 0.4vh;
-	margin-left: 0px;
-	margin-bottom: 0px;
-}
-
-#omoss {
-  font-size: 60px;
-  font-family: fantasy;
-  }
-
-#tallogvenn {
-font-family: fantasy;
-font-size: 30px;
-}
-
-#omosstext {
-    font-family: Lucida Sans;
-    font-size: 20px;
-    }
-
-#hilsen {
-    font-family: Lucida Sans;
-    font-size: 20px;
-    margin-left: 30vw;
-
-}
-
-#mattevits {
-font-family: Lucida Sans;
-font-size: 20px;
-padding: 10px;
-}
-
-#vits {
-  font-family: Lucida Sans;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 10px;
-}
-
-
-#toggle {
-background-color: rgb(231, 165, 67);
-font-size: 18px;
-margin-bottom: 3vh;
-font-family: Franklin Gothic Medium;
-padding: 10px;
-border-radius: 60px;
-cursor: pointer;
-
-
-}
-#toggle:hover{background-color: #ecef45}
-
-#toggle:active {
-background-color: #dca01e;
-box-shadow: 0 5px #666;
-transform: translateY(4px);
-
-}
-
-#Svar1 {
-  font-family: Lucida Sans;
-  font-weight: bolder;
-  font-size: 18px;
-  color: rgb(37, 160, 37);
-  padding: 15px;
-}
-
-#kafebilde {
-display: block;
-width: 50vw;
-height: 40vh;
-border-radius: 7vw;
-margin-left: 50vw;
-transform: translateX(-50%);
-padding: 0px;
-}
-
-#hr {
-border: 1.5px dashed black;
-}
-
 

@@ -1,43 +1,46 @@
+/*File containing css specific for screens with width less than 820 px*/
 
-  body {
-    margin: 0px;
-    overflow-x: hidden;
-  }
-
+/*------------------------Frontpage css-------------------------*/
   .flex-container {
     text-align: center;
     flex-direction: column;
     justify-items: center;
     
   }
+
   .button{
-    font-size: 15px;
+    font-size: 5vh;
     max-width: fit-content;
     margin: auto;
 
   }
 
+/*--------------------Top navigation bar css---------------------*/
+
   #Kafelogo {
-    display: block;
-    position: absolute;
-    bottom: 1;
-    margin-top: 0vh;
+    position: fixed;
+    top: 0;
+    z-index: 11;
     width: 20vw;
-    align-self: left;
-    align-items: left;
-    height:12.6vw;
+    height:13.7vw;
   }
 
   .topnav {
-    overflow: hidden;
-    background-color:beige;
+    position: fixed;
+    top: 0;
+    z-index: 10;
     margin-left: 20%;
+    width: 79vw;
   }
 
   .topnav a {
     padding: 0vh;
     font-size: 4vw;
   }
+  /*
+  .topnav a p {
+    padding: vh;
+  }*/
 
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -61,41 +64,35 @@
     text-align: left;
   }
 
-  .navigationBarButton {
-    padding: 0vw;
-    height: 10vh;
-    width: 16vw;
-    font-size: 2.2vw;
-  }
+  /*---------------------------Footer css-------------------------*/
+
+  footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    row-gap: 1px;
+}
+
+.footerItem {
+  flex-basis: auto;
+  flex: 1;
+  width: 80%;
+  overflow-wrap: break-word;
+  font-size: 100%;
+}
   
      
   #tinderLogo {
-      width: 20vw;
       height: 20vw;
   }
   
-  .allergenIcons {
-      max-width: 100%;
-      max-height: 100%;
-      width: 8vw;
-      height: 8vw;
-  }
+
+  /*----------------------------Menu css--------------------------*/
   
   .meny_and_sidebar {
     flex-direction: column;
     justify-content: center;
-  }
-  
-  #meny {
-      align-items: center;
-      margin-top: 10vw;
-      margin-left: 15vw;
-      width:70vw;
-      align-items: center;
-      padding: 0px;
-      background-color: rgb(239, 235, 218);
-      background: rgba(47, 116, 18, 0.5);
-      color: black;
   }
 
   .sidebar {
@@ -104,62 +101,30 @@
     height: 0px;
   }
   
+  #meny {
+      margin-top: 10vw;
+      margin-left: 15vw;
+      width:70vw;
+      padding: 0px;
+  }
+
   .menuHeader {
-    text-align: center;
     font-size: 6vw;
-    font-family: "Impact", sans-serif;
-    letter-spacing: 0.3vh;
-    font-style: normal; 
-    font-variant: normal; 
-    color: rgb(14, 5, 5);
   }
-  
-  .headers {
-      text-align: center;
-      font-size: 4vw;
-      font-family: 'Trebuchet MS', sans-serif;
-      font-style: normal; 
-      font-variant: normal;  
-      font-style: bold;
-  }
-  
-  .allergen {
-      font-family:Verdana;
-      padding: 5px;
-      font-size: 2.5vw;
-      display: inline-block;
-  }
-  
 
   .section {
-      background-color: blanchedalmond;
-      background: rgba(215, 208, 162, 0.8);
-      border-radius: 8px;
-      padding: 1vh;
-      width: 90%;
-      font-size: 3vw;
-      margin-bottom: 2vh;
-      position: relative;
-  }
+    padding: 1vh;
+    width: 90%;
+    font-size: 3vw;
+}
   
-  footer {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      flex-direction: column;
-      row-gap: 1px;
-      width: 100vw;
-      height: 60vh+60vw;
-      background-color: rgb(68, 51, 51);
-      color: blanchedalmond;
+  .allergen {
+      font-size: 2.5vw;
   }
+
+  .allergenIcons {
+    width: 8vw;
+    height: 8vw;
+}
   
-  .footerItem {
-    flex-basis: auto;
-    flex: 1;
-    width: 80%;
-    overflow-wrap: break-word;
-    font-size: 100%;
-  }
   
