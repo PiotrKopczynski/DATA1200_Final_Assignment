@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="small_style.css" media="screen and (max-width:700px)">
 </head>
 <body class="bakgrunn-body">
       
@@ -20,19 +21,35 @@
 
 
 
-    <div class="reservasjon_forklaring"> <h1>Reservasjoner</h1>Vi kan ta inntil 60 gjester. 
-        Du reserverer bord ved å fylle ut skjemat nedenfor. Du fyller inn info som navn, kontaktinfo, antall personer og dato for bestilingen og trykker på &lt;&lt;book nå&gt;&gt; knappen nederst på siden. 
-        Du kan også reservere bord ved å ringe 123456789 eller sende mail til 
+    <div class="reservasjon_forklaring"> <h1>Reservasjoner</h1>
+        <h5>Vi kan ta inntil 60 gjester. </h3>
+        Du reserverer bord ved å fylle ut skjemet nedenfor. Du fyller inn info som navn, kontaktinfo, antall personer og dato for bestilingen og trykker på &lt;&lt;book nå&gt;&gt; knappen nederst på siden. 
+        Du kan også reservere bord ved å ringe 123456789 <br>eller sende mail til 
         <a href="mailto:catlover420@cybergang.no">catlover420@cybergang.no</a>. </div>
 
     <div class="container2">
-    <div>Navn:</div>
-    <div>Kontaktinfo:</div>
-    <div>Antall personer:</div>
-    <div>Dato:</div>
+    <div>
+        <form action="/action_page.php">
+        <label for="fname">&#9749;Navn: </label>
+        <input type="text" id="fname" name="fname" size="120" input style="height:140px"> <br><br>
+      </form></div>
+
+    <div>
+        <form action="/action_page.php">
+            <label for="fname">&#128488;Kontaktinfo: </label>
+            <input type="text" id="fname" name="fname" size="120" input style="height:140px"><br><br></div>
+    <div>
+        <form action="/action_page.php">
+            <label for="fname"> &#128129;Antall personer: </label>
+            <input type="text" id="fname" name="fname" size="120" input style="height:140px"><br><br>
+        </div>
+
+    <div><form action="/action_page.php">
+        <label for="fname">&#128359;Dato: </label>
+        <input type="text" id="fname" name="fname" size="120" input style="height:140px"><br><br></div>
     </div>
 
-    <button class="button_book">Book nå</button>
+    <div class="button_book">Book nå</div>
     
     <footer id="bottom">
 
