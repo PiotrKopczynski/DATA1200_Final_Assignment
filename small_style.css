@@ -102,13 +102,75 @@
     font-size: 100%;
   }
   
-  .header_velkommen {
-    font-size: 6vw;
-    margin-left: 53vw;
-   margin-bottom: 3vh;
 
-  }
+  
+  
   @media only screen and (max-width: 600px) {
+    .header_velkommen {
+      font-size: 6vw;
+      margin-left: 53vw;
+     margin-bottom: 3vh;
+  
+    }
+    
+    .omoss_text {
+    font-size: 4vw;
+    line-height: 7.5vw;
+  }
+
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+    width: 100%;
+  }
+
+  div.desc{
+    font-size: 4.0vw;
+  }
+
+.container >div{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-right: 1.5vw;
+  }
+
+.header_reservasjon {
+font-size: 8vw;
+margin-left: 18vw;
+}
+
+.reservasjon_forklaring{
+  border: 3.0vw solid rgba(214, 153, 93, 0.436);
+  width: 65vw;
+  height: 110vw;
+  padding-top: 2.0vw;
+}
+
+.reservasjon_text{
+  font-size: 4vw;
+}
+
+
+.container2_reservasjon >div{
+  width:65vw;
+  height: 30vh;
+  font-size: 2.5vw;
+  letter-spacing: 0.2vw;
+   
+}
+
+input[type=text], select {
+  font-size: 2.5vw;
+}
+
+.button_book {
+  padding: 2.0vw 5vh;
+  font-size: 3.0vw;
+  margin-left: 40vw;
+}
+}
+
+/*@media only screen and (max-width: 600px) {
     .responsive {
       width: 49.99999%;
       margin: 6px 0;
@@ -119,23 +181,4 @@
     .responsive {
       width: 100%;
     }
-  }
-
-  .omoss_text {
-    font-size: 4.5vw;
-    line-height: 7.5vw;
-  }
-
-  .button_book_her {
-    font-size: 4vw;
-  }
-
-  div.desc{
-    font-size: 4.0vw;
-  }
-
-  .container >div{
-    margin-left: 5vw;
-    margin-right: 5vw;
-    padding-right: 1.5vw;
-  }
+  }*/

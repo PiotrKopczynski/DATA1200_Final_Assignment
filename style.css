@@ -492,7 +492,7 @@ div.gallery {
   
 /*A Complete Guide to Flexbox by Chris Coyier:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/?fbclid=IwAR2dc5cGG1Fopu-jG03mE6e-J37j7yFNv1yBs_ZHJEN3SneCQED_zUDn2nM*/
-.container {
+.container_omoss {
 display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
@@ -500,7 +500,7 @@ justify-content: space-evenly;
 row-gap: 10vw;
 }
 
-.container >div {
+.container_omoss >div {
 flex-grow: 5;
 flex-basis: auto;
 background-color: rgba(242, 242, 229, 0.909);
@@ -524,23 +524,6 @@ margin-right: 10vw;
   font-size: 1.5vw;
 }
 
-.button_book_her {
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5vw;;
-  text-decoration: none;
-  outline: none;
-  color: rgb(228, 191, 191);
-  background-color: burlywood;
-  border: none;
-  margin-top: 2vw;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-  padding: 15px 20px;
-}
-
 a{
  color:black;
  text-decoration: none; 
@@ -557,22 +540,35 @@ a{
 }
 
 
+.header_reservasjon {
+  font-family: 'Courier New', Courier, monospace;
+
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  margin-left: 27vw;
+
+  font-size: 5vw;
+  color: #fff;
+  
+  text-decoration: underline;
+  font-weight: bolder;
+  letter-spacing: 0.2vw;
+  }
+
 .reservasjon_forklaring{
   background-color: rgba(242, 234, 219, 0.909);
   border: 1.0vw solid rgba(214, 153, 93, 0.436);
-  width: 65vw;
-  height: 10vh;
+  border-radius: 3vw;
 
-  padding-top: 3vh;
-  padding-bottom: 52vh;
-  padding-right: 2vw;
-  padding-left: 5vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 6vh;
+  padding-bottom: 2vh;
 
   margin-left: 18vw;
   margin-right: 20vw;
   margin-bottom: 4vh;
-  margin-top: 20vh;
-  border-radius: 3vw;
+  margin-top: 5vh;
 }
 
 .reservasjon_text{
@@ -587,8 +583,9 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/?fbclid=IwAR2dc5cGG1Fopu-
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: baseline;
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
   }
   
   .container2_reservasjon >div {
@@ -600,14 +597,13 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/?fbclid=IwAR2dc5cGG1Fopu-
     height: 15vw;
     
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 25vh;
     padding-left: 2vw;
     padding-right: 5vw;
     
     margin-bottom: 4vh;
     margin-top: 3vh;
-    margin-left:18vw;
-    margin-right: 20vw;
+    margin-left: 18vw;
     
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.6vw;
@@ -618,12 +614,17 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/?fbclid=IwAR2dc5cGG1Fopu-
   input[type=text], select {
     width: 60vw;
     height: 18vh;
+    
     padding-left: 1.2vw;
-    padding-right: 2.0vw;;
+    padding-right: 2.0vw;
+    padding-bottom: 0vw;
+
     margin-left: 0.8vw;
     margin-right: 0.2vw;
-    margin-top: 1.5vh;
+    margin-top: 0.5vh;
     margin-bottom: 1.5vh;
+
+    font-size: 1.3vw;
     font-weight: bold;
     display: inline-block;
     border: 0.1vw solid rgb(32, 30, 30);
@@ -648,7 +649,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/?fbclid=IwAR2dc5cGG1Fopu-
     box-shadow: 0 0.9vw rgb(247, 237, 216);
 
     margin-top: 1.0vw;
-    margin-left: 45vw;
+    margin-left: 43vw;
     margin-bottom: 10vh;
   }
   
