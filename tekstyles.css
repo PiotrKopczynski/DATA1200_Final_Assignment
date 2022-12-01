@@ -30,7 +30,7 @@ ul {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
 }
 
@@ -41,8 +41,8 @@ ul {
 }
 
 .navbar .logo {
-    font-size: x-large;
-    font-weight: bold;
+    display: flex;
+    font-weight: x-large;
 }
 
 .navbar a{
@@ -50,12 +50,6 @@ ul {
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-}
-
-.sticky {
-    position: fixed;
-    top:0;
-    width: 100%;
 }
 
 .navbar a:hover {
@@ -74,7 +68,7 @@ ul {
 }
 
 .navbar ul li {
-    margin-left: 20px;
+    margin-left: 5%;
 }
 
 .header {
@@ -98,7 +92,7 @@ ul {
 .header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .boxes .container {
@@ -129,6 +123,12 @@ ul {
     .boxes .container {
         display: block;
         text-align: center;
+    }
+    .navbar{
+        height: fit-content;
+    }
+    .navbar a{
+        font-size: 14px;
     }
 }
 
