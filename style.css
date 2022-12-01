@@ -441,12 +441,55 @@ align-self: center;
 width: 88vw;
 margin-top: 20vh;
 margin-bottom: 10vh;
-font-size: 6vw;
-margin-left: 50vw;
+font-size: 5vw;
+color: #fff;
+margin-left: 60vw;
 transform: translateX(-50%);
 font-weight: bolder;
 }
 
+div.gallery {
+  border: 3px #ccc;
+  border-style: inset;
+  padding-top: 3px;
+  margin-right: 15px;
+  margin-left: 15px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;    
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.715);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 5px 15px;
+    float: left;
+    width: 33.3%
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
 /*A Complete Guide to Flexbox by Chris Coyier:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/?fbclid=IwAR2dc5cGG1Fopu-jG03mE6e-J37j7yFNv1yBs_ZHJEN3SneCQED_zUDn2nM*/
 .container {
@@ -454,7 +497,7 @@ display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
 justify-content: space-evenly;
-row-gap: 10px;
+row-gap: 10vw;
 }
 
 .container >div {
@@ -462,159 +505,158 @@ flex-grow: 5;
 flex-basis: auto;
 background-color: rgba(242, 242, 229, 0.909);
 border: 25px solid rgba(214, 153, 93, 0.436);
-border-radius: 50px;
+border-radius: 5vw;
 
-width: 500vw;
-padding-right: 10px;
-padding-left: 100px;
-padding-bottom: 50px;
-padding-top: 30px;
+padding-right: 10vw;
+padding-left: 5vw;
+padding-bottom: 5vh;
+padding-top: 3vh;
 
-margin-top: 100px;
-margin-bottom: 150px;
-margin-left: 200px;
-margin-right: 200px;
-
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-line-height: 2.5;
-font-size: 20px;
+margin-top: 10vh;
+margin-bottom: 1vh;
+margin-left: 10vw;
+margin-right: 10vw;
 }
 
-div.gallery {
-border: 3px #ccc;
-border-style: inset;
-padding-top: 3px;
-margin-right: 15px;
+.omoss_text {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 2.5;
+  font-size: 1.5vw;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;    
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-  
-}
-
-div.desc {
-  padding: 15px;
+.button_book_her {
+  display: inline-block;
+  cursor: pointer;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.715);
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 1.5vw;;
+  text-decoration: none;
+  outline: none;
+  color: rgb(228, 191, 191);
+  background-color: burlywood;
+  border: none;
+  margin-top: 2vw;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  padding: 15px 20px;
 }
 
-* {
-  box-sizing: border-box;
+a{
+ color:black;
+ text-decoration: none; 
 }
 
-.responsive {
-  padding: 5px 15px;
-  float: left;
-  width: 33.3%
-  /*24.99999%;*/
+.button_book_her:hover {
+  background-color: #cb9727
 }
 
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
+.button_book_her:active {
+  background-color: #b1b147;
+  box-shadow: 0 5px rgb(180, 199, 176);
+  transform: translateY(4px);
 }
 
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .reservasjon_forklaring{
-  /*background-color: hsla(18, 64%, 81%, 0.863);*/
-background-color: rgba(243, 243, 236, 0.909);
-border: 25px solid rgba(214, 153, 93, 0.436);
-  width: 900px;
-  height: 400px;
+  background-color: rgba(242, 234, 219, 0.909);
+  border: 1.0vw solid rgba(214, 153, 93, 0.436);
+  width: 65vw;
+  height: 10vh;
 
-  padding-left: 60px;
-  padding-top: 1px;
-  padding-bottom: 450px;
-  padding-right: 60px;
+  padding-top: 3vh;
+  padding-bottom: 52vh;
+  padding-right: 2vw;
+  padding-left: 5vw;
 
-  margin-left: 250px;
-  margin-bottom: 40px;
-  margin-top: 150px;
-  /*border: 20px solid hsla(18, 64%, 81%, 0.863);*/
-  border-radius: 30px;
+  margin-left: 18vw;
+  margin-right: 20vw;
+  margin-bottom: 4vh;
+  margin-top: 20vh;
+  border-radius: 3vw;
+}
 
-  font-size: 22px;
+.reservasjon_text{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5vw;
   line-height: 2.0;
 }
 
-.container2 {
+/*A Complete Guide to Flexbox by Chris Coyier:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/?fbclid=IwAR2dc5cGG1Fopu-jG03mE6e-J37j7yFNv1yBs_ZHJEN3SneCQED_zUDn2nM*/
+.container2_reservasjon {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: baseline;
-  row-gap: px;
   }
   
-  .container2 >div {
+  .container2_reservasjon >div {
     flex-grow: 2;
     flex-basis: auto;
     background-color: rgba(255, 255, 255, 0.995);
     
+    width: 65vw;
+    height: 15vw;
     
-    width: 900px;
-    height: 200px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 2vw;
+    padding-right: 5vw;
     
-    padding-top: 10px;
-    padding-bottom: 50px;
-    padding-left: 30px;
-    padding-right: 5px;
-    
-    margin-bottom: 40px;
-    margin-left:250px ;
-    margin-top: 30px;
+    margin-bottom: 4vh;
+    margin-top: 3vh;
+    margin-left:18vw;
+    margin-right: 20vw;
     
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    letter-spacing: 2px;
+    font-size: 1.6vw;
+    letter-spacing: 0.2vw;
     font-weight: bold;
-
   }
 
+  input[type=text], select {
+    width: 60vw;
+    height: 18vh;
+    padding-left: 1.2vw;
+    padding-right: 2.0vw;;
+    margin-left: 0.8vw;
+    margin-right: 0.2vw;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    font-weight: bold;
+    display: inline-block;
+    border: 0.1vw solid rgb(32, 30, 30);
+    border-radius: 0.4vw;
+    box-sizing: border-box;
+  }
+  
   .button_book {
     display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
+    padding: 1.5vw 5vh;
+    font-size: 2.0vw;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.1vw;
     outline: none;
-    color: #fff;
-    background-color: #e0b642;
+    color: rgb(10, 9, 9);
+    background-color: rgb(221, 161, 83);
     border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px rgb(224, 223, 217);
+    border-radius: 1.5vw;
+    box-shadow: 0 0.9vw rgb(247, 237, 216);
 
-    margin-top: 10px;
-    margin-left: 630px;
-    margin-bottom: 70px;
+    margin-top: 1.0vw;
+    margin-left: 45vw;
+    margin-bottom: 10vh;
   }
   
-  .button_book:hover {background-color: #dec774}
+  .button_book:hover {background-color: #da9351}
   
   .button_book:active {
-    background-color: #8e773e;
-    box-shadow: 0 5px #666;
+    background-color: #de7d1d;
+    box-shadow: 0 5px rgb(102, 102, 102);
     transform: translateY(4px);
   }
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bookingpage</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="small_style.css" media="screen and (max-width:700px)">
 </head>
@@ -19,37 +19,86 @@
         <a href="Booking page.html"><button class=navigationBarButton><p class="hover-underline-animation">Om oss</p></button></a>
     </div>
 
+    <p class="header_velkommen">Velkommen til vår kafé!</p>
 
-
-    <div class="reservasjon_forklaring"> <h1>Reservasjoner</h1>
-        <h5>Vi kan ta inntil 60 gjester. </h3>
-        Du reserverer bord ved å fylle ut skjemet nedenfor. Du fyller inn info som navn, kontaktinfo, antall personer og dato for bestilingen og trykker på &lt;&lt;book nå&gt;&gt; knappen nederst på siden. 
-        Du kan også reservere bord ved å ringe 123456789 <br>eller sende mail til 
-        <a href="mailto:catlover420@cybergang.no">catlover420@cybergang.no</a>. </div>
-
-    <div class="container2">
-    <div>
-        <form action="/action_page.php">
-        <label for="fname">&#9749;Navn: </label>
-        <input type="text" id="fname" name="fname" size="120" input style="height:140px"> <br><br>
-      </form></div>
-
-    <div>
-        <form action="/action_page.php">
-            <label for="fname">&#128488;Kontaktinfo: </label>
-            <input type="text" id="fname" name="fname" size="120" input style="height:140px"><br><br></div>
-    <div>
-        <form action="/action_page.php">
-            <label for="fname"> &#128129;Antall personer: </label>
-            <input type="text" id="fname" name="fname" size="120" input style="height:140px"><br><br>
-        </div>
-
-    <div><form action="/action_page.php">
-        <label for="fname">&#128359;Dato: </label>
-        <input type="text" id="fname" name="fname" size="120" input style="height:140px"><br><br></div>
+    <div class="responsive">
+      <div class="gallery">
+        <!-- Bilde hentet fra: https://pixabay.com/no/photos/bord-stoler-stol-restaurant-%c3%a5rgang-791167/
+        Fotograf: Karolina Grabowska fra Pixabay.com -->
+        <a target="_blank" href="restaurantbord2.jpg">
+          <img src="restaurantbord2.jpg" alt="Bilde av restaurant interior" width="600" height="400">
+        </a>
+        <div class="desc">Kom innom Pilestredet 18!</div>
+      </div>
     </div>
-
-    <div class="button_book">Book nå</div>
+    
+    <div class="responsive">
+      <div class="gallery">
+        <!-- Bilde hentet fra: https://pixabay.com/no/photos/restaurant-matlaging-kokk-kj%c3%b8kken-1284351/
+        Fotograf: pexels fra Pixabay.com -->
+        <a target="_blank" href="restaurant2.jpg">
+          <img src="restaurant2.jpg" alt="Bilde av kokken vår som lager mat" width="600" height="400">
+        </a>
+        <div class="desc">Vi har mange gode retter å by på!</div>
+      </div>
+    </div>
+    
+    <div class="responsive">
+        <div class="gallery">
+          <!-- Bilde hentet fra: https://pixabay.com/no/photos/drinker-alkohol-cocktailer-2578446/
+        Fotograf: bridgesward fra Pixabay.com -->
+          <a target="_blank" href="drinks.jpg">
+            <img src="drinks.jpg" alt="Bilde av folk som skåler med drinks" width="600" height="400">
+          </a>
+          <div class="desc">Hos oss serverer vi også bra drikke!</div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      <div class="container">
+        <div class="omoss_text" >
+          Velkommen til Kafé Atten!
+          <br>Her er det smak og stil som er viktig for oss. 
+          <br>Sammen med våre kokker og servitører vil vi skape den beste atmosfæren i byen!<br/>
+          Du finner oss i Plestredet 18. Kom innom for en hygglig opplevelse.&#128147;
+          <br>Vi har god plass til deg og dine venner - så hvorfor ikke reservere lokalet vårt til din neste fest?<br>
+          <button class="button_book_her"><a id="reserver" href="#">Book her</a></button></div>
+        </div>
+        </div>
+    
+      <div class="reservasjon_forklaring"> <h2>Reservasjoner</h2>
+          <h4>Vi kan ta inntil 60 gjester. </h4>
+          <div class="reservasjon_text">Du reserverer bord ved å fylle ut skjemet nedenfor. 
+              Du fyller inn info som navn, kontaktinfo, antall personer og dato for bestilingen og trykker 
+              på <b>book nå</b> knappen nederst på siden. 
+              Du kan også reservere bord ved å ringe 123456789 <br> eller sende mail til 
+              <a href="mailto:catlover420@cybergang.no">catlover420@cybergang.no</a>.</div>  
+          </div>
+    
+      <div class="container2_reservasjon">
+      <div>
+          <form action="/action_page.php">
+          <label for="fname">&#9749;Navn: </label>
+          <input type="text" id="fname" name="navn" placeholder="Skriv inn navnet ditt..."> 
+        </form></div>
+    
+      <div>
+          <form action="/action_page.php">
+              <label for="fname">&#128488;Kontaktinfo: </label>
+              <input type="text" id="fname" name="kontaktinfo" size="110vw" placeholder="Skriv inn kontaktinformasjonen din..."></div>
+      <div>
+          <form action="/action_page.php">
+              <label for="fname"> &#128129;Antall personer: </label>
+              <input type="text" id="fname" name="antall_personer" placeholder="Skriv inn hvor mange som kommer...">
+          </div>
+    
+      <div><form action="/action_page.php">
+          <label for="fname">&#128359;Dato: </label>
+          <input type="text" id="fname" name="dato" placeholder="Skriv inn når dere skal komme til oss..."></div>
+      </div>
+    
+      <div class="button_book">Book nå</div>
     
     <footer id="bottom">
 
