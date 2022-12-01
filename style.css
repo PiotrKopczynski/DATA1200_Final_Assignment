@@ -448,10 +448,11 @@ transform: translateX(-50%);
 font-weight: bolder;
 }
 
-img {
+.img_reservasjon {
   width: 600;
   height: 400;
 }
+
 div.gallery {
   border: 3px #ccc;
   border-style: inset;
