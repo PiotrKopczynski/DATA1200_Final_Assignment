@@ -21,27 +21,27 @@
     position: fixed;
     top: 0;
     z-index: 11;
-    width: 20vw;
-    height:13.6vw;
+    width: 21vw;
+    height:10.7vh;
   }
 
   .topnav {
     position: fixed;
     top: 0;
     z-index: 10;
-    margin-left: 20%;
+    margin-left: 21%;
     width: 79vw;
   }
 
   .topnav a {
     padding: 0vh;
-    font-size: 4vw;
+    font-size: 3vh;
   }
 
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
-    margin-top: 3vw;
+    margin-top: 3vh;
     padding-right: 3vh;
     padding-bottom: 0.9vh;
     display: block;

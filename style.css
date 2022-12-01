@@ -10,7 +10,7 @@ body {
 }
 
 #background1 { /*Background for frontpage*/
-  background-image: url("coffee.jpg");
+  background-image: url("bilder/coffee.jpg");
   background-size: cover;                   
   background-repeat: no-repeat;    
   background-position: center;
@@ -187,12 +187,13 @@ margin: 1vh;
 /*----------------------------Menu css--------------------------*/
 
 #background2 { /*This background is shared for reservation and "om oss" pages as well*/
-  background-image: url("wood_background.jpg");
+  background-image: url("bilder/wood_background.jpg");
   background-size: cover;                   
   background-position: center;
   left: 0px;
   overflow-y: scroll;
   min-height: 100vh;
+  min-width: 100vw;
 }
 
 html { /*This is used for the sidebar such that the buttons link to correct
