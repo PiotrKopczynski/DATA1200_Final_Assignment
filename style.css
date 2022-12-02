@@ -10,7 +10,7 @@ body {
 }
 
 #background1 { /*Background for frontpage*/
-  background-image: url("bilder/coffee.jpg");
+  background-image: url("bilder/coffee.jpg");/*StockSnap, link: https://pixabay.com/photos/home-desk-coffee-pencil-beans-2570929/*/
   background-size: cover;                   
   background-repeat: no-repeat;    
   background-position: center;

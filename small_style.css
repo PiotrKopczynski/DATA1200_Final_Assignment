@@ -21,7 +21,7 @@
     position: fixed;
     top: 0;
     z-index: 11;
-    width: 21vw;
+    width: 20.5vw;
     height:10.7vh;
   }
 
@@ -34,12 +34,14 @@
   }
 
   .topnav a {
+    position: relative;
     padding: 0vh;
     font-size: 3vh;
   }
 
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
+    position: relative;
     float: right;
     margin-top: 3vh;
     padding-right: 3vh;
@@ -48,9 +50,9 @@
     color: black;
     font-weight: bold;
   }
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
   }

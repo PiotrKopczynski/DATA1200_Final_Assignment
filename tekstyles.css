@@ -14,8 +14,35 @@ body {
     background: #a1ffa2;
 }
 
-img {
-    max-width: 100%;
+#reasons {
+    border: 2px solid #ccc;
+    width: 100%;
+    height:100%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#reasons:hover {
+    border: 0.3vh solid #777;
+}
+
+#scooter {
+    margin-bottom: 5vh;
+}
+
+.profile {
+    width: 14vw;
+    height: 20vh;
+}
+
+#solcelle {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#solcelle:hover {
+    border: 0.7vh solid #777;
+    padding: 0px;
 }
 
 h1,h2 {
@@ -72,7 +99,7 @@ ul {
 }
 
 .header {
-    background-color: #2fc25e;
+    background-color: #208641;
     color: #fff;
     min-height: 400px;
 }
@@ -142,4 +169,8 @@ ol.a {
     list-style-type: lower-alpha;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  a {
+    color: white;
   }
