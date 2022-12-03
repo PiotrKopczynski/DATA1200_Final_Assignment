@@ -313,14 +313,12 @@ li {
 
 .header_velkommen {
   font-family: 'Courier New', Courier, monospace;
-  align-self: center;
-  width: 88vw;
+  text-align: center;
+  width: 100%;
   margin-top: 20vh;
   margin-bottom: 10vh;
   font-size: 5vw;
   color: #fff;
-  margin-left: 60vw;
-  transform: translateX(-50%);
   font-weight: bolder;
 }
 
