@@ -377,17 +377,18 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/?fbclid=IwAR2dc5cGG1Fopu-
 .omoss_text {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
   row-gap: 10vw;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   line-height: 2.5;
   font-size: 1.5vw;
 }
 
+.container_omoss {
+  margin-top: 65vh;
+}
+
 .container_omoss >p {
   flex-grow: 5;
-  flex-basis: auto;
   background-color: rgba(242, 242, 229, 0.909);
   border: 25px solid rgba(214, 153, 93, 0.436);
   border-radius: 5vw;
@@ -448,15 +449,10 @@ a{
 .container2_reservasjon {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: flex-start;
 }
 
 .container2_reservasjon >div {
   flex-grow: 2;
-  flex-basis: auto;
   background-color: rgba(255, 255, 255, 0.995);
   
   width: 65vw;
@@ -492,10 +488,8 @@ input[type=text], select {
 
   font-size: 1.3vw;
   font-weight: bold;
-  display: inline-block;
   border: 0.1vw solid rgb(32, 30, 30);
   border-radius: 0.4vw;
-  box-sizing: border-box;
 }
 
 .button_book {
@@ -504,13 +498,10 @@ input[type=text], select {
   font-size: 2.0vw;
   cursor: pointer;
   text-align: center;
-  text-decoration: none;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 0.1vw;
-  outline: none;
   color: rgb(10, 9, 9);
   background-color: rgb(221, 161, 83);
-  border: none;
   border-radius: 1.5vw;
   box-shadow: 0 0.9vw rgb(247, 237, 216);
 
@@ -525,4 +516,18 @@ input[type=text], select {
   background-color: #de7d1d;
   box-shadow: 0 5px rgb(102, 102, 102);
   transform: translateY(4px);
+}
+
+/*-----------------Tilgjengelighet CSS--------------------------*/
+
+.container_tilgjengelighet {
+  width: 80vw;
+  padding-bottom: 10vh;
+  margin-left: 50vw;
+  transform: translateX(-50%);
+}
+
+.container_tilgjengelighet h1 {
+  margin-left: 47vw;
+  transform: translateX(-50%);
 }
