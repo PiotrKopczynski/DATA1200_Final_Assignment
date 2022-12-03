@@ -54,14 +54,16 @@ body {
 /*-------------------------CSS for images-----------------------*/
 
 #reasons {
-    width: 100%;
+    max-width: 300px;
     height:100%;
     margin-top: 3vh;
     margin-bottom: 3vh;
+    border: 3px solid white;
 }
 
 #scooter {
     margin-bottom: 5vh;
+    max-width:300px;
 }
 
 .profile {
@@ -72,16 +74,22 @@ body {
 #solcelle {
     margin-top: 2vh;
     margin-bottom: 2vh;
+    max-width: 300px;
+    border: 3px solid white;
 }
 
-img {
+
+#reasons:hover {
+    border: 3px solid #777;
+}
+
+#solcelle:hover {
+    border: 3px solid #777;
+}
+
+#leaf{
     max-width: 300px;
 }
-
-a img:hover {
-    border: 0.7vh solid #777;
-}
-
 
 /*------------------------CSS for containers-------------------*/
 
