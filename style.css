@@ -7,7 +7,7 @@ body {
   height: 100vh;
   margin: 0px;
   overflow-x: hidden;
-  font-family: 'Apple Chancery', cursive;;
+  font-family: 'Apple Chancery', cursive;
 }
 
 #background1 { /*Background for frontpage*/
@@ -166,7 +166,7 @@ footer {
   overflow-wrap: break-word;
   margin-top: 1vh;
   margin-bottom: 1vh;
-  font-size: 2vw;
+  font-size: 1em;
   padding: 1vh;
 }
 
@@ -218,7 +218,7 @@ html { /*This is used for the sidebar such that the buttons link to correct
   margin-right: 4vw;
   margin-top: 5vh;
   width: 15vh;
-  height: 41vh;
+  height: 46vh;
   font-size: 2vh;
   background: rgba(215, 208, 162, 0.8);
 }
