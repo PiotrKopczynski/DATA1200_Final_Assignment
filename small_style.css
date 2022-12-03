@@ -21,8 +21,8 @@
     position: fixed;
     top: 0;
     z-index: 11;
-    width: 20.8vw;
-    height:10.7vh;
+    width: 21vw;
+    height:10.6vh;
   }
 
   .topnav {
@@ -106,7 +106,7 @@
       padding: 0px;
   }
 
-  .menuHeader {
+  .menuTitle {
     font-size: 6vw;
   }
 
@@ -129,7 +129,7 @@
  .header_velkommen {
   font-size: 6vw;
   margin-left: 53vw;
- margin-bottom: 3vh;
+  margin-bottom: 3vh;
 
 }
 
@@ -138,7 +138,7 @@
   line-height: 7.5vw;
 }
 
-.responsive {
+.resp {
   width: 49.99999%;
   margin: 6px 0;
   width: 100%;
