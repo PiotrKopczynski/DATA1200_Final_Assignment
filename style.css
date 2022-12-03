@@ -323,19 +323,19 @@ li {
 
 .img_reservasjon {
   width: 600px;
-  height: 400px;
+  height: auto;
 }
+
 
 div.gallery {
   border: 3px #ccc;
-  border-style: inset;
-  padding-top: 3px;
+  border-style: solid;
   margin-right: 15px;
   margin-left: 15px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;    
+  border: 3px solid #777;    
 }
 
 div.gallery img {
@@ -400,7 +400,6 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/?fbclid=IwAR2dc5cGG1Fopu-
 
 a{
    color:black;
-  text-decoration: none; 
 }
 
 .header_reservasjon {
