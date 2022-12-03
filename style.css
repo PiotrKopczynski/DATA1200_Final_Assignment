@@ -312,7 +312,6 @@ li {
 /*-------------------CCS for booking page-----------------------*/
 
 .header_velkommen {
-  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   width: 100%;
   margin-top: 20vh;
@@ -346,10 +345,9 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
+  padding: 8px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.715);
-  font-family: 'Times New Roman', Times, serif;
   font-size: 1.5vw;
 }
 
@@ -375,7 +373,6 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/?fbclid=IwAR2dc5cGG1Fopu-
   display: flex;
   flex-direction: row;
   row-gap: 10vw;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   line-height: 2.5;
   font-size: 1.5vw;
 }
@@ -407,8 +404,6 @@ a{
 }
 
 .header_reservasjon {
-  font-family: 'Courier New', Courier, monospace;
-
   margin-top: 10vh;
   margin-bottom: 5vh;
   margin-left: 27vw;
@@ -438,7 +433,6 @@ a{
 }
 
 .reservasjon_text{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.5vw;
   line-height: 2.0;
 }
@@ -464,7 +458,6 @@ a{
   margin-top: 3vh;
   margin-left: 18vw;
   
-  font-family: 'Times New Roman', Times, serif;
   font-size: 1.6vw;
   letter-spacing: 0.2vw;
   font-weight: bold;
@@ -495,7 +488,6 @@ input[type=text], select {
   font-size: 2.0vw;
   cursor: pointer;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 0.1vw;
   color: rgb(10, 9, 9);
   background-color: rgb(221, 161, 83);
