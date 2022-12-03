@@ -7,6 +7,7 @@ body {
   height: 100vh;
   margin: 0px;
   overflow-x: hidden;
+  font-family: 'Apple Chancery', cursive;;
 }
 
 #background1 { /*Background for frontpage*/
@@ -22,7 +23,6 @@ body {
 
 .title { /*Frontpage title*/
   font-size: 6vh;
-  font-family: 'Apple Chancery', cursive;
   text-align: center;
   padding: 1vh 0;
   margin-top: 15%;
@@ -31,7 +31,6 @@ body {
 
 .frontpageTXT{ /*Frontpage text*/
   text-align: center;
-  font-family: 'Apple Chancery', cursive;
   padding: 5vh;
   padding-bottom: 7vh;
   font-size: 3vh;
