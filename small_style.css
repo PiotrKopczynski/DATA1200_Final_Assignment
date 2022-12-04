@@ -185,5 +185,12 @@ input[type=text], select {
 .button_book {
   padding: 2.0vw 5vh;
   font-size: 3.0vw;
-  margin-left: 16vh;
+  margin-left: 50vw;
+  transform: translateX(-50%);
+}
+
+.button_book:active {
+  transform: translateY(2px);
+  margin-left: 50vw;
+  transform: translateX(-50%);
 }
