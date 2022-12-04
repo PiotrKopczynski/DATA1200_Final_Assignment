@@ -493,10 +493,7 @@ input[type=text], select {
   background-color: rgb(221, 161, 83);
   border-radius: 1.5vw;
   box-shadow: 0 0.9vw rgb(247, 237, 216);
-
   margin-top: 1.0vw;
-  margin-left: 50vw;
-  transform: translateX(-50%);
   margin-bottom: 10vh;
 }
 
@@ -504,6 +501,11 @@ input[type=text], select {
   background-color: #523213;
   color: white;
 
+}
+
+.bookinglocation{
+  width:100%;
+  text-align:center;
 }
   
 .button_book:active {
