@@ -216,11 +216,11 @@ html { /*This is used for the sidebar such that the buttons link to correct
   flex-direction: column;
   gap: 2vh;
   top: 15vh;
-  margin-right: 4vw;
+  margin-right: 2vw;
   margin-top: 5vh;
-  width: 15vh;
-  height: 46vh;
-  font-size: 2vh;
+  width: 25vh;
+  height: 71vh;
+  font-size: 4vh;
   background: rgba(215, 208, 162, 0.8);
 }
 
@@ -239,7 +239,7 @@ html { /*This is used for the sidebar such that the buttons link to correct
     align-items: center;
     padding: 5px;
     background-color: rgb(239, 235, 218);
-    background: rgba(47, 116, 18, 0.5);
+    background: rgba(97, 104, 66, 0.5);
 }
 
 .menuTitle {
