@@ -499,7 +499,11 @@ input[type=text], select {
   margin-bottom: 10vh;
 }
 
-.button_book:hover {background-color: #da9351}
+.button_book:hover {
+  background-color: #523213;
+  color: white;
+
+}
   
 .button_book:active {
   background-color: #de7d1d;
