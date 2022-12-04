@@ -256,7 +256,6 @@ html { /*This is used for the sidebar such that the buttons link to correct
 .menuHeader {
   text-align: center;
   font-size: 4vw;
-  font-family: 'Trebuchet MS', sans-serif;
   font-style: normal; 
   font-variant: normal;  
   font-style: bold;
@@ -271,7 +270,6 @@ html { /*This is used for the sidebar such that the buttons link to correct
     border-radius: 8px;
     padding: 3vw;
     width: 85%;
-    font-family: Verdana;
     font-size: 2vw;
     margin-bottom: 2vh;
     position: relative;
@@ -297,7 +295,6 @@ li {
 }
 
 .allergen {/*Text describing the allergens of a dish*/
-  font-family:Verdana;
   padding: 5px;
   font-size: 1.5ex;
   display: inline-block;
