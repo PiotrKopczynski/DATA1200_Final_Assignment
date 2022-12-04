@@ -9,10 +9,18 @@
   }
 
   .button{
-    font-size: 5vh;
+    font-size: 4vh;
     max-width: fit-content;
     margin: auto;
 
+  }
+
+  #background1{
+    height:100%;
+  }
+
+  .frontpageTXT{
+    font-size:0;
   }
 
 /*--------------------Top navigation bar css---------------------*/
