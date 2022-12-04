@@ -1,15 +1,11 @@
 # Dette prosjektet er siste innlevering i faget DATA1200 - Høsten 2022.
 
-## Prosjektet ble laget av gruppe med nummer 4242.
+## Prosjektet ble laget av gruppe med nummer 4242. 
+Målet med nettsiden er å oppfylle kravene skrevet under og generelt lage en fin og skalerbar
+nettside som tar hensyn til tilgjengelighet.
 
 ## Oppgavebeskrivelse:
 
-### Specifications:
-• You are recommended to do this final assignment in groups of 3 to 5.
-• Create groups on Inspera.
-• Create a website on GitHub pages.
-o You are allowed to upload a zip-file instead, please see below.
-• Submit the link to the site as text on Inspera.
 ### Description:
 • Final assignment: A full website with several pages.
 • Theme: A house for events with a cafe/ restaurant.
@@ -53,21 +49,3 @@ but we expect several links, and we expect it to be easy to understand before cl
 information you lead us to.
 • If you wish to show off some skills, but found that difficult with the other pages, you can
 make this page different from the others, with a distinct visual of functional identity.
-### Information about grading:
-• Structure and navigation (widescreen, and small screens): Are the pages well structured (with
-headings, paragraphs, images) and is it easy to navigate between the pages? We shall check this on
-different screens.
-• Accessibility and legibility: We shall look both at the automated test and use our experience to
-assess how well designed the pages are. Your description will assist us in understanding the choices
-you have made.
-o The text "Short presentation of accessibility". Have you done an automated test? Were you
-able to comprehend the results? Have you reflected on accessibility beyond automated
-tests? And does the entire site appear coherent, as a site of pages, rather than fragmented
-texts without a common theme?
-• Ease of maintenance: Is the code easy to maintain for a new developer? Can someone else take
-over your work and modify, change, and further develop this site using their IDE of choice (rather
-than the one you used)? We shall look at the code itself. Is it well-structured and easy to read? Are
-you following conventions for comments? Is the CSS well organised with each element styled only
-once (if possible)? Is the structural code (like boxes) separate from the code that defines the
-visuals? etc.
-• Creativity: In the sense 'clever use of code', intelligent use of selectors etc.
