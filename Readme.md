@@ -1,5 +1,7 @@
 # Dette prosjektet er siste innlevering i faget DATA1200 - Høsten 2022.
 
+The website can be shown here: (frontpage.html)
+
 ## Prosjektet ble laget av gruppe med nummer 4242. 
 Målet med nettsiden er å oppfylle kravene skrevet under og generelt lage en fin og skalerbar
 nettside som tar hensyn til tilgjengelighet.
