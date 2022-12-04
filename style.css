@@ -500,7 +500,6 @@ input[type=text], select {
 .button_book:hover {
   background-color: #523213;
   color: white;
-
 }
 
 .bookinglocation{
@@ -512,8 +511,6 @@ input[type=text], select {
   background-color: #de7d1d;
   box-shadow: 0 5px rgb(102, 102, 102);
   transform: translateY(4px);
-  margin-left: 50vw;
-  transform: translateX(-50%);
 }
 
 /*-----------------Tilgjengelighet CSS--------------------------*/
